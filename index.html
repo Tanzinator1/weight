@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <base href="/weight/">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/weight/">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your fitness, weight, sleep, workouts, and meals over 15 weeks.">
 
+    <!-- iOS Homescreen -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="FitTrack15">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Track your fitness, weight, sleep, workouts, and meals over 15 weeks.">
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0175C2">
 
-  <!-- iOS and PWA compatibility -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="FitTrack15">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Android theme -->
-  <meta name="theme-color" content="#0175C2">
-
-  <!-- Manifest & Favicon -->
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>FitTrack15</title>
-</head>
-<body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+    <title>FitTrack15</title>
+  </head>
+  <body>
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
 </html>
